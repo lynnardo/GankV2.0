@@ -10,11 +10,11 @@ import com.var.gankv.base.BaseView;
 public interface SplashContract {
 
     interface View extends BaseView {
-
+        void showMainUi();
     }
 
     interface Presenter extends BasePresenter<View> {
-
+        void initSplash();
     }
 
 }
