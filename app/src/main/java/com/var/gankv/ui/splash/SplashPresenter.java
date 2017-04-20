@@ -9,4 +9,14 @@ public class SplashPresenter implements SplashContract.Presenter {
     public void initSplash() {
 
     }
+
+    @Override
+    public void attachView(SplashContract.View View) {
+
+    }
+
+    @Override
+    public void detachView() {
+
+    }
 }
